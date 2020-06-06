@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Online Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="heading">
+            <h1>True Knowledge Quiz</h1>
+        </div>
+            <div class="inner" id="options">
+                <label for="number">Number of Question</label>
+                <select id="number" name="number" class="control">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <br>
+                <label for="category">Select Category:</label>    
+                <select id="category" name="category" class="control">
+                    <option value="9">General Knowledge</option>
+                    <option value="17">Science & Nature</option>
+                    <option value="18">Science: Computers</option>
+                    <option value="19">Science: Mathematics</option>
+                    <option value="21">Sports</option>
+                    <option value="23">History</option>
+                    <option value="24">Politics</option>
+                    <option value="27">Animals</option>
+                    <option value="30">Science: Gadgets</option>
+                    <option value="10">Books</option>
+                </select>
+                <br>
+                <label for="difficulty">Select Difficulty:</label>
+                <select id="difficulty" name="difficulty" class="control">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <br>
+                <label for="type">Select Type:</label>
+                <select id="type" name="type" class="control">
+                    <option value="multiple">Multiple Choice</option>
+                    <option value="boolean">True / False</option>
+                </select>
+                <br>
+                <button id="btn" type="submit">Generate & Start Quiz</button>
+            </div>
+        
+        <div id="content">
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
